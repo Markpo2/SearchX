@@ -1,7 +1,11 @@
-# REQUIRED CONFIG
-BOT_TOKEN=
-OWNER_ID=
-DRIVE_FOLDER_ID=
+class Config(object):
+
+    # get a token from @BotFather
+    BOT_TOKEN = "6043283784:AAHLV11M9g3gaDj5dE-Sr5fKhSCd8CT-lOc"
+
+    # Get these values from my.telegram.org
+    API_ID = 7143337
+    API_HASH = "1afa55a5f3bf7058c843d1b290f79c49"
 # OPTIONAL CONFIG
 AUTHORIZED_USERS=
 DATABASE_URL=
